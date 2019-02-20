@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace sitioweb
+{
+    public partial class Historial : Form
+    {
+        public Historial()
+        {
+            InitializeComponent();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listb.ClearSelected();
+        }
+
+        private void Historial_Load(object sender, EventArgs e)
+        {
+            TopMost = true;
+        }
+    }
+}
